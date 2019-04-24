@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+	font-family: 'ChemyRetro';
+	src: url('../resources/fonts/ChemyRetro.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'DIN Pro';
+	src: url('../fonts/DINPro.eot');
+	src: local('DIN Pro'), local('DINPro'),
+		url('../fonts/DINPro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINPro.woff') format('woff'),
+		url('../fonts/DINPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

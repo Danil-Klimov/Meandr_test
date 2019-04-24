@@ -1,0 +1,30 @@
+@import 'libs';
+@import 'fonts';
+@import 'mixins';
+@import 'sprites';
+
+$main-color: #242424;
+$sub-color: #3b4256;
+$accent-color: #f82f38;
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: MetaPro, sans-serif;
+	font-weight: 700;
+}
+
+@import "blocks";
+@import 'pages';
