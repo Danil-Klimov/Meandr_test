@@ -5,7 +5,8 @@
 
 $main-color: #242424;
 $sub-color: #3b4256;
-$accent-color: #f82f38;
+$accent-color: #F47821;
+$bg-color: #F7F5FA;
 
 *,
 *::before,
@@ -16,14 +17,31 @@ html {
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 img {
 	max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: MetaPro, sans-serif;
+	font-family: 'DIN Pro', sans-serif;
 	font-weight: 700;
+	margin-top: 0;
+}
+h1, h2 {
+	font-size: 48px;
+	font-weight: 400;
+	letter-spacing: -0.02em;
+	color: #222;
+}
+h3 {
+	font-size: 40px;
+	letter-spacing: -0.02em;
+	font-weight: 400;
+	text-align: center;
+}
+p {
+	margin-top: 0;
 }
 
 @import "blocks";

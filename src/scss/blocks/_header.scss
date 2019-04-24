@@ -1,0 +1,15 @@
+.header {
+  background-color: #fff;
+  text-align: center;
+  padding: 165px 0 139px;
+}
+.header__title {
+  margin-bottom: 19px;
+}
+.header__description {
+  margin-bottom: 50px;
+  span {
+    color: $accent-color;
+    font-weight: 600;
+  }
+}

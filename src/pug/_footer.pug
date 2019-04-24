@@ -1,1 +1,17 @@
-footer
+footer.footer
+  h3 Теперь расскажите о себе
+  form.form
+    .input-group
+      label(for='name') Фамилия и имя
+      input#name(type='text' placeholder='Сидоров Александр')
+    .input-group
+      label(for='email') Электронная почта
+      input#email(type='email' placeholder='Sidorov@yandex.ru')
+    .input-group
+      label(for='tel') Телефон
+      input#tel(type='tel' placeholder='+7 (999)-328-14-20')
+    .input-group
+      label(for='text') Какой деятельностью, не связанной с текущими проектами, вы бы хотели заниматься в рабочее время?
+      textarea#text(placeholder='Свой проект по созданию универсальной инфраструктуры строительства')
+    .button-container
+      button.form__button Отправить

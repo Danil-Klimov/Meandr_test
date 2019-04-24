@@ -1,0 +1,32 @@
+.merit {
+    background-color: $bg-color;
+    max-height: 445px;
+}
+.merit__container {
+    position: relative;
+    top: -100px;
+}
+.merit__row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.merit__item {
+    max-width: 486px;
+    background-color: #fff;
+    border: 1px solid #EDEDED;
+    margin: -1px -1px 0 0;
+    padding: 50px 75px 37px 60px;
+    flex-basis: 50%;
+    h4 {
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $accent-color;
+    }
+    p {
+        font-size: 24px;
+        letter-spacing: -0.03em;
+        font-family: 'DIN Pro', sans-serif;
+    }
+}

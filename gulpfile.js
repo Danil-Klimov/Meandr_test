@@ -136,7 +136,7 @@ gulp.task('scripts', function() {
 
 // Watch
 gulp.task('watch', function() {
-	gulp.watch('src/resources/**/*.*', gulp.series('copy'));
+	// gulp.watch('src/resources/**/*.*', gulp.series('copy'));
 	// gulp.watch('src/img/sprites/png/*.png', gulp.series('sprites:png'));
 	// gulp.watch('src/img/sprites/svg/*.svg', gulp.series('sprites:svg'));
 	gulp.watch(['src/img/*.jpg', 'src/img/*.png', 'src/img/*.svg', 'src/img/*.gif'], gulp.series('images'));
