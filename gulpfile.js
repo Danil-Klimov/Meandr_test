@@ -122,7 +122,8 @@ gulp.task('optimize:svg', function() {
 // Concat
 gulp.task('libs', function() {
 	return gulp.src(['node_modules/jquery/dist/jquery.min.js',
-					 'node_modules/svg4everybody/dist/svg4everybody.js'])
+					 'node_modules/svg4everybody/dist/svg4everybody.js',
+						'node_modules/jquery.maskedinput/src/jquery.maskedinput.js'])
 		.pipe($.concat('libs.min.js'))
 		.pipe(gulp.dest('build/js'))
 });

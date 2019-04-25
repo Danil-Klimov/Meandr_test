@@ -1,6 +1,6 @@
 .advantages {
   background: $bg-color;
-  padding: 98px 0 148px;
+  padding: 98px 15px 122px;
   h3 {
     margin-bottom: 60px;
   }
@@ -13,6 +13,7 @@
 }
 .advantages__item {
   max-width: 345px;
+  padding: 0 15px;
   h4 {
     font-size: 20px;
     letter-spacing: 0.015em;
